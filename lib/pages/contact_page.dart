@@ -52,13 +52,13 @@ class ContactPage extends StatelessWidget {
               IconButton(
                 icon: Icon(Icons.facebook),
                 onPressed: () {
-                  _launchURL('URL_DO_FACEBOOK');
+                  _launchURL('https://www.facebook.com/frutasexpressjlle/?locale=pt_BR');
                 },
               ),
               IconButton(
                 icon: Icon(Icons.camera_alt),
                 onPressed: () {
-                  _launchURL('URL_DO_INSTAGRAM');
+                  _launchURL('https://www.instagram.com/frutasexpressjlle/');
                 },
               ),
             ],
